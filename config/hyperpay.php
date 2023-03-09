@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'productionURL' => env('HYPER_PAY_URL', "https://oppwa.com"),
+
     'sandboxMode' => env('SANDBOX_MODE', true),
 
     'entityIdMada' => env('ENTITY_ID_MADA'),

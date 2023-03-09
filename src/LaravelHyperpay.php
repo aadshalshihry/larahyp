@@ -63,7 +63,7 @@ class LaravelHyperpay implements Hyperpay
         $this->client = $client;
         $this->config = config('hyperpay');
         if (! config('hyperpay.sandboxMode')) {
-            $this->gateway_url = 'https://oppwa.com';
+            $this->gateway_url = config('hyperpay.productionURL');
         }
     }
 

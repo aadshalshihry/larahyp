@@ -1,6 +1,6 @@
 <?php
 
-namespace Devinweb\LaravelHyperpay\Support;
+namespace AadshalshihryLaravelHyperpay\Support;
 
 use Illuminate\Support\Arr;
 use Illuminate\Validation\ValidationException;

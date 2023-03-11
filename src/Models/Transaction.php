@@ -1,9 +1,9 @@
 <?php
 
-namespace Devinweb\LaravelHyperpay\Models;
+namespace AadshalshihryLaravelHyperpay\Models;
 
 use Carbon\Carbon;
-use Devinweb\LaravelHyperpay\Traits\HasUniqID;
+use AadshalshihryLaravelHyperpay\Traits\HasUniqID;
 use Illuminate\Database\Eloquent\Model;
 
 class Transaction extends Model

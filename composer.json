@@ -1,17 +1,17 @@
 {
-    "name": "devinweb/laravel-hyperpay",
+    "name": "aadshalshihry/laravel-hyperpay",
     "description": "Laravel package for Hyperpay payment gateway in MENA.",
     "keywords": [
-        "devinweb",
+        "Aadshalshihry",
         "laravel-hyperpay"
     ],
-    "homepage": "https://github.com/devinweb/laravel-hyperpay",
+    "homepage": "https://github.com/aadshalshihry/laravel-hyperpay",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
             "name": "darbaoui imad",
-            "email": "imad@devinweb.com",
+            "email": "imad@Aadshalshihry.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Devinweb\\LaravelHyperpay\\": "src"
+            "AadshalshihryLaravelHyperpay\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Devinweb\\LaravelHyperpay\\Tests\\": "tests"
+            "AadshalshihryLaravelHyperpay\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Devinweb\\LaravelHyperpay\\LaravelHyperpayServiceProvider"
+                "AadshalshihryLaravelHyperpay\\LaravelHyperpayServiceProvider"
             ],
             "aliases": {
-                "LaravelHyperpay": "Devinweb\\LaravelHyperpay\\Facades\\LaravelHyperpay"
+                "LaravelHyperpay": "AadshalshihryLaravelHyperpay\\Facades\\LaravelHyperpay"
             }
         }
     }

@@ -1,14 +1,14 @@
 <?php
 
-namespace Devinweb\LaravelHyperpay;
+namespace AadshalshihryLaravelHyperpay;
 
-use Devinweb\LaravelHyperpay\Contracts\BillingInterface;
-use Devinweb\LaravelHyperpay\Contracts\Hyperpay;
-use Devinweb\LaravelHyperpay\Support\HttpClient;
-use Devinweb\LaravelHyperpay\Support\HttpParameters;
-use Devinweb\LaravelHyperpay\Support\HttpResponse;
-use Devinweb\LaravelHyperpay\Support\TransactionBuilder;
-use Devinweb\LaravelHyperpay\Traits\ManageUserTransactions;
+use AadshalshihryLaravelHyperpay\Contracts\BillingInterface;
+use AadshalshihryLaravelHyperpay\Contracts\Hyperpay;
+use AadshalshihryLaravelHyperpay\Support\HttpClient;
+use AadshalshihryLaravelHyperpay\Support\HttpParameters;
+use AadshalshihryLaravelHyperpay\Support\HttpResponse;
+use AadshalshihryLaravelHyperpay\Support\TransactionBuilder;
+use AadshalshihryLaravelHyperpay\Traits\ManageUserTransactions;
 use GuzzleHttp\Client as GuzzleClient;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;

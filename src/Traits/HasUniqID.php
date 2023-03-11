@@ -1,6 +1,6 @@
 <?php
 
-namespace Devinweb\LaravelHyperpay\Traits;
+namespace AadshalshihryLaravelHyperpay\Traits;
 
 trait HasUniqID
 {

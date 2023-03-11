@@ -1,11 +1,11 @@
 <?php
 
-namespace Devinweb\LaravelHyperpay\Facades;
+namespace AadshalshihryLaravelHyperpay\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Devinweb\LaravelHyperpay\Skeleton\SkeletonClass
+ * @see \AadshalshihryLaravelHyperpay\Skeleton\SkeletonClass
  */
 class LaravelHyperpay extends Facade
 {

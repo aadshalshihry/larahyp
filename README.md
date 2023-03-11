@@ -2,10 +2,10 @@
 
 # Laravel HyperPay
 
-[![tests](https://github.com/aadshalshihry/laravel-hyperpay/actions/workflows/tests.yml/badge.svg)](https://github.com/aadshalshihry/laravel-hyperpay/actions/workflows/tests.yml)
+[![tests](https://github.com/aadshalshihry/larahyp/actions/workflows/tests.yml/badge.svg)](https://github.com/aadshalshihry/larahyp/actions/workflows/tests.yml)
 <a href="https://github.styleci.io/repos/347104704"><img src="https://github.styleci.io/repos/347104704/shield?branch=master" alt="StyleCI Shield"></a>
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/aadshalshihry/laravel-hyperpay.svg?style=flat-square)](https://packagist.org/packages/aadshalshihry/laravel-hyperpay)
-[![Total Downloads](https://img.shields.io/packagist/dt/aadshalshihry/laravel-hyperpay.svg?style=flat-square)](https://packagist.org/packages/aadshalshihry/laravel-hyperpay)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/aadshalshihry/larahyp.svg?style=flat-square)](https://packagist.org/packages/aadshalshihry/larahyp)
+[![Total Downloads](https://img.shields.io/packagist/dt/aadshalshihry/larahyp.svg?style=flat-square)](https://packagist.org/packages/aadshalshihry/larahyp)
 
 Laravel HyperPay provides an easy way to handle all the transactions with different states.
 
@@ -14,12 +14,12 @@ Laravel HyperPay provides an easy way to handle all the transactions with differ
 You can install the package via composer:
 
 ```bash
-composer require aadshalshihry/laravel-hyperpay
+composer require aadshalshihry/larahyp
 ```
 
 ## Database migration
 
-`Laravel-hyperpay` provides a migration to handle its own transaction, don't forget to publish the migration after installation
+`larahyp` provides a migration to handle its own transaction, don't forget to publish the migration after installation
 
 ```bash
 php artisan vendor:publish --tag="hyperpay-migrations"
@@ -67,7 +67,7 @@ php artisan vendor:publish --tag="hyperpay-config"
 
 After that you can see the file in `app/hyperpay.php`
 
-Before start using `Laravel-hyperpay`, add the `ManageUserTransaction` trait to your User model, this trait provides mutliple tasks to allow you to perform the transaction process from the given user.
+Before start using `larahyp`, add the `ManageUserTransaction` trait to your User model, this trait provides mutliple tasks to allow you to perform the transaction process from the given user.
 
 ```php
 
@@ -227,7 +227,7 @@ class PaymentController extends Controller
 
 ### Events handlers
 
-`Laravel-hyperpay` providers two events during the transaction process, after finalize this package fire for successfull transaction
+`larahyp` providers two events during the transaction process, after finalize this package fire for successfull transaction
 
 | Event                                              | Description         |
 | -------------------------------------------------- | ------------------- |
@@ -269,7 +269,7 @@ class EventServiceProvider extends ServiceProvider
 
 ```
 
-In each success transaction `laravel-hyperpay` package fire an event with the necessary data take a look at our `TransactionSuccessListener` class.
+In each success transaction `larahyp` package fire an event with the necessary data take a look at our `TransactionSuccessListener` class.
 
 ```php
 <?php
@@ -338,4 +338,4 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 ## Laravel hyperpay Boilerplate
 
-You can use this repository to check the integration of the package [laravel-hyperpay-boilerplate](https://github.com/aadshalshihry/laravel-hyperpay-boilerplate).
+You can use this repository to check the integration of the package [larahyp-boilerplate](https://github.com/aadshalshihry/larahyp-boilerplate).

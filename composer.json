@@ -1,11 +1,11 @@
 {
-    "name": "aadshalshihry/laravel-hyperpay",
+    "name": "aadshalshihry/larahyp",
     "description": "Laravel package for Hyperpay payment gateway in MENA.",
     "keywords": [
         "Aadshalshihry",
-        "laravel-hyperpay"
+        "larahyp"
     ],
-    "homepage": "https://github.com/aadshalshihry/laravel-hyperpay",
+    "homepage": "https://github.com/aadshalshihry/larahyp",
     "license": "MIT",
     "type": "library",
     "authors": [
